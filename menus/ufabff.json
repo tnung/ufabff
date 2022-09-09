@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle ufabff",
+        "command": "ufabff:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "ufabff",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "ufabff:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
